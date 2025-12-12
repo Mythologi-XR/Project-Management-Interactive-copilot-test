@@ -1,0 +1,22 @@
+{
+  "organization": "Mythologi-XR",
+  "repository": "Project-Management-Interactive-copilot-test",
+  "project": {
+    "number": 6,
+    "id": "PVT_kwDOBPMIpc4BKfTK",
+    "title": "Test Project | Sprint Management"
+  },
+  "fields": {
+    "status": {
+      "id": "PVTSSF_lADOBPMIpc4BKfTKzg6V5dA",
+      "name": "Status"
+    }
+  },
+  "columns": {
+    "todo": { "id": "fcfd0306", "name": "Todo" },
+    "in_progress": { "id": "29437f55", "name": "In Progress" },
+    "testing": { "id": "a09cf401", "name": "Testing | Validating" },
+    "review": { "id": "467f897b", "name": "Review" },
+    "done": { "id": "ec7c2f09", "name": "Done" }
+  }
+}

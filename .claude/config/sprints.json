@@ -1,0 +1,49 @@
+{
+  "validation": {
+    "commands": [],
+    "optional_commands": []
+  },
+  "workflow": {
+    "require_human_review": true,
+    "auto_close_on_done": false,
+    "comment_on_transitions": true,
+    "confirmation_mode": "interactive",
+    "confirmation_prompts": {
+      "sprint_start": true,
+      "task_start": true,
+      "task_completion": true,
+      "sprint_completion": true
+    },
+    "user_ready_signals": ["ready", "next", "continue", "done", "yes", "y"],
+    "user_hold_signals": ["hold", "wait", "stop", "no", "n", "pause"],
+    "resumption_signals": ["resume", "restart"],
+    "compaction": {
+      "auto_trigger_after_tasks": 3,
+      "manual_trigger": "compact",
+      "skip_signal": "skip compact"
+    }
+  },
+  "sprints": [
+    {
+      "number": 0,
+      "name": "Foundation Setup",
+      "milestone": "Sprint 0: Foundation Setup",
+      "gate_issue_suffix": ".G",
+      "description": "Set up the basic project structure and configuration files"
+    },
+    {
+      "number": 1,
+      "name": "Core Features",
+      "milestone": "Sprint 1: Core Features",
+      "gate_issue_suffix": ".G",
+      "description": "Implement the core feature set"
+    },
+    {
+      "number": 2,
+      "name": "Documentation & Polish",
+      "milestone": "Sprint 2: Documentation & Polish",
+      "gate_issue_suffix": ".G",
+      "description": "Complete documentation and final polish"
+    }
+  ]
+}
