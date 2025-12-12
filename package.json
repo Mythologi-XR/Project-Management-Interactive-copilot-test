@@ -1,0 +1,25 @@
+{
+  "name": "project-management-interactive-copilot-test",
+  "version": "1.0.0",
+  "description": "Test repository for validating the Claude Code project management workflow with interactive sprint execution",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"No tests configured yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mythologi-XR/Project-Management-Interactive-copilot-test.git"
+  },
+  "keywords": [
+    "claude-code",
+    "project-management",
+    "sprint-workflow",
+    "test"
+  ],
+  "author": "Mythologi-XR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mythologi-XR/Project-Management-Interactive-copilot-test/issues"
+  },
+  "homepage": "https://github.com/Mythologi-XR/Project-Management-Interactive-copilot-test#readme"
+}
