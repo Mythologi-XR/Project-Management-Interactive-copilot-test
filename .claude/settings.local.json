@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc:*)",
+      "Bash(chmod:*)",
+      "Bash(for f in *.md)",
+      "Bash(done)",
+      "Bash(for dir in /Users/jonscyu/Documents/GitHub/elysium-web-app/.claude/skills/v4/*/)",
+      "Bash(do echo '=== $(basename $dir) ===' ls -la $dir)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(for dir in */)",
+      "Bash(do if [ ! -f \"$dirSKILL.md\" ])",
+      "Bash(then echo \"MISSING: $dirSKILL.md\")",
+      "Bash(fi)",
+      "Bash(for f in */SKILL.md)",
+      "Bash(do)",
+      "Bash(if ! grep -q \"^name:\" \"$f\")",
+      "Bash(then)",
+      "Bash(echo:*)",
+      "Bash(if ! grep -q \"^description:\" \"$f\")",
+      "Bash(if ! grep -q \"## Context\" \"$f\")",
+      "Bash(for f in domain-refactor-scene/SKILL.md domain-refactor-team/SKILL.md domain-refactor-wallet/SKILL.md domain-refactor-world/SKILL.md error-resilience/SKILL.md foundation-setup/SKILL.md performance-auditor/SKILL.md shared-component-builder/SKILL.md typescript-patterns/SKILL.md)",
+      "Bash(do echo \"=== $f ===\" head -50 \"$f\")",
+      "Bash(gh issue create:*)",
+      "Bash(gh api:*)",
+      "Bash(cat:*)",
+      "Bash(./tests/pm-flow/test-project-management-flow.sh:*)",
+      "Bash(__NEW_LINE__ echo \"\")",
+      "Bash(gh issue list:*)",
+      "Bash(gh issue view:*)",
+      "Bash(node -e:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "github"
+  ]
+}
