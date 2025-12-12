@@ -2,7 +2,23 @@
 description: Execute a sprint from the architecture optimization plan
 argument-hint: [sprint-number]
 allowed-tools:
-  - Bash(*)
+  - Bash(gh auth:*)
+  - Bash(gh issue:*)
+  - Bash(gh api:*)
+  - Bash(gh pr:*)
+  - Bash(gh repo:*)
+  - Bash(gh project:*)
+  - Bash(jq:*)
+  - Bash(npm run:*)
+  - Bash(npm test:*)
+  - Bash(node:*)
+  - Bash(cat:*)
+  - Bash(git status:*)
+  - Bash(git add:*)
+  - Bash(git commit:*)
+  - Bash(git push:*)
+  - Bash(git diff:*)
+  - Bash(git log:*)
   - Read
   - Write
   - Edit

@@ -4,7 +4,8 @@
   "description": "Test repository for validating the Claude Code project management workflow with interactive sprint execution",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"No tests configured yet\""
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Mythologi-XR/Project-Management-Interactive-copilot-test/issues"
   },
-  "homepage": "https://github.com/Mythologi-XR/Project-Management-Interactive-copilot-test#readme"
+  "homepage": "https://github.com/Mythologi-XR/Project-Management-Interactive-copilot-test#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
 }
