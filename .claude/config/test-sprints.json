@@ -1,0 +1,45 @@
+{
+  "validation": {
+    "required_commands": [
+      "echo 'Build validation placeholder'"
+    ],
+    "optional_commands": []
+  },
+  "workflow": {
+    "require_human_review": true,
+    "auto_close_on_done": false,
+    "comment_on_transitions": true,
+    "confirmation_mode": "interactive",
+    "confirmation_prompts": {
+      "sprint_start": true,
+      "task_start": true,
+      "task_completion": true,
+      "sprint_completion": true
+    },
+    "user_ready_signals": ["ready", "next", "continue", "done", "yes", "y"],
+    "user_hold_signals": ["hold", "wait", "stop", "no", "n", "pause"]
+  },
+  "sprints": [
+    {
+      "number": 0,
+      "name": "Foundation",
+      "milestone": "Sprint 0: Foundation",
+      "gate_issue_suffix": ".G",
+      "description": "TypeScript setup and project structure"
+    },
+    {
+      "number": 1,
+      "name": "Core Features",
+      "milestone": "Sprint 1: Core Features",
+      "gate_issue_suffix": ".G",
+      "description": "Logging, configuration, and error handling"
+    },
+    {
+      "number": 2,
+      "name": "Testing & Documentation",
+      "milestone": "Sprint 2: Testing & Documentation",
+      "gate_issue_suffix": ".G",
+      "description": "Unit tests and documentation"
+    }
+  ]
+}

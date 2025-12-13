@@ -1,0 +1,37 @@
+{
+  "organization": "Mythologi-XR",
+  "repository": "project-management-copilot-test",
+  "project": {
+    "number": 5,
+    "id": "PVT_kwDOBPMIpc4BKd5h",
+    "title": "@mythologi's test project"
+  },
+  "fields": {
+    "status": {
+      "id": "PVTSSF_lADOBPMIpc4BKd5hzg6U6FM",
+      "name": "Status"
+    }
+  },
+  "columns": {
+    "todo": {
+      "id": "f75ad846",
+      "name": "Todo"
+    },
+    "in_progress": {
+      "id": "47fc9ee4",
+      "name": "In Progress"
+    },
+    "testing": {
+      "id": "cd182827",
+      "name": "Testing | Validating"
+    },
+    "review": {
+      "id": "f6d85733",
+      "name": "Review"
+    },
+    "done": {
+      "id": "98236657",
+      "name": "Done"
+    }
+  }
+}
